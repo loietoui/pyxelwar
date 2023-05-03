@@ -1,0 +1,237 @@
+@font-face {
+  font-family : "Pixel";
+  src: url("../font/pixel.ttf");
+}
+
+@font-face {
+  font-family: "Dogica";
+  src: url("../font/dogica.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/roboto.ttf");
+}
+
+html, body {
+  margin: 0; /* Tout d'abord, je commence par enlever les margin du body et/ou de l'html */
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.left {
+  padding: 5%;
+  width: 15%;
+  height: 85vh;
+  justify-content: center;
+}
+
+.right {
+  width: 85%;
+  padding-right: 10vh;
+}
+
+.menu {
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  font-size: 150%;
+  letter-spacing: 0.3vh;
+  padding: 2%;
+  margin-bottom: 10%;
+  font-family: "Roboto";
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: "Dogica";
+  text-align: right;
+  font-size: 300%;
+  margin: 10% 5% 10% 0;
+}
+
+.question {
+  margin-top: 5%;
+  font-family: "Roboto";
+}
+
+.question h2 {
+  font-size: 250%;
+}
+
+.question p {
+  margin: 0 5% 0 5%;
+  font-size: 170%;
+  text-align: justify;
+  line-height: 4vh;
+}
+
+.question h4 {
+  text-align: right;
+  margin-right: 10%;
+  font-size: 150%;
+}
+
+.img-text {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+}
+
+.img-text p {
+  font-family: serif;
+  margin: 0;
+  font-size: 100%;
+}
+
+#files {
+  width: 2%;
+}
+
+.descr-apropos {
+  font-family: "Roboto";
+  font-size: 200%;
+  hyphens: auto;
+  text-align: justify;
+  letter-spacing: 0.6vh;
+  line-height: 5vh;
+}
+
+.bug1 {
+  animation-name: sabeugue1;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  font-family: "Pixel";
+  letter-spacing: 12px;
+}
+
+.bug1:hover {
+  font-size: 300%;
+}
+
+@keyframes sabeugue1 {
+  from {
+    line-height: 0;
+  }
+  10% {
+    line-height: 0.2vh;
+  }
+  20% {
+    line-height: 0;
+  }
+  30% {
+    line-height: 0.6vh;
+  }
+  40% {
+    line-height: 0;
+}
+  50% {
+    line-height: 0.2vh;
+  }
+  60% {
+    line-height: 0;
+  }
+  70% {
+    line-height: 0.4vh;
+  }
+  80% {
+    line-height: 0;
+  }
+  90% {
+    line-height: 0.2vh;
+  }
+  to {
+    line-height: 0;
+  }
+}
+
+.bug2 {
+  animation-name: sabeugue2;
+  animation-duration: 1s;
+  font-family: "Pixel";
+  animation-iteration-count: infinite;
+  letter-spacing: 12px;
+}
+
+.bug2:hover {
+  color: white;
+}
+
+@keyframes sabeugue2 {
+  from {
+    line-height: 0.2;
+  }
+  10% {
+    line-height: 0;
+  }
+  20% {
+    line-height: 0.6vh;
+  }
+  30% {
+    line-height: 0;
+  }
+  40% {
+    line-height: 0;
+}
+  50% {
+    line-height: 0.2vh;
+  }
+  60% {
+    line-height: 0;
+  }
+  70% {
+    line-height: 0.2vh;
+  }
+  80% {
+    line-height: 0;
+  }
+  90% {
+    line-height: 0.5vh;
+  }
+  to {
+    line-height: 0;
+  }
+}
+
+#bug-img {
+  width: 50%;
+  margin-top: 20vh;
+  animation-name: imaage;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes imaage {
+  from {
+    opacity: 0%;
+  }
+  30% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 20%;
+  }
+  60% {
+    opacity: 0
+  }
+  90% {
+    opacity: 0
+  }
+  to {
+    opacity: 50%;
+  }
+}

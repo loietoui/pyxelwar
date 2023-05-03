@@ -1,0 +1,102 @@
+@font-face {
+  font-family : "Pixel";
+  src: url("../font/pixel.ttf");
+}
+
+@font-face {
+  font-family: "Dogica";
+  src: url("../font/dogica.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/roboto.ttf");
+}
+
+html, body {
+  margin: 0; /* Tout d'abord, je commence par enlever les margin du body et/ou de l'html */
+}
+
+body {
+  background-image: url("../img/fond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.header, .footer {
+  height : 30vh;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  width: 60%;
+  height: 70vh;
+  margin: 0 20% 0 20%;
+  border-radius: 3vh;
+}
+
+
+h1 {
+  font-family: "Pixel";
+  font-weight: lighter;
+  font-size: 300%;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form p {
+  margin: 0;
+  font-family: "Roboto";
+  font-size: 150%;
+}
+
+input {
+  margin: 3vh;
+  font-size: 150%;
+  border: solid 2px black;
+  border-radius: 1vh;
+}
+
+.bouton {
+  margin: 0;
+  width: 40vh;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+form button {
+  font-family: "Dogica";
+  font-size: 150%;
+  height: 5vh;
+  width: 20vh;
+  border-radius: 3vh;
+  margin-top: 10%;
+  border: none;
+  background-color: rgba(255, 255, 255);
+}
+
+form button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form button:active {
+  background-color: rgba(0, 0, 0, 0.3);
+}

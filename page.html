@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- En-tête de la page -->
+    <meta charset="utf-8">
+    <!-- C'est le titre de la page -->
+    <title>C'est la guerre</title>
+    <!-- c'est pour relier au css -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+</head>
+<body>
+  <div class="grille">
+    <canvas id="Grille"></canvas>
+  </div>
+
+    <script src="../js/script.js"></script>
+
+    <!--ces divs permettent de créer les petit carrés pour selectionner les couleur. Chaque div à sa propre id pour pouvoir la colorer de la bonne façon avec le css.-->
+    <!--Lorsque l'on clique sur un des petit carré, ça lance la fonction mettreCouleurStylo.-->
+    <div id="couleurs">
+        <div class="stylo" id="couleur1" onclick="mettreCouleurStylo('white')"></div>
+        <div class="stylo" id="couleur2" onclick="mettreCouleurStylo('#0ce6f2')"></div>
+        <div class="stylo" id="couleur3" onclick="mettreCouleurStylo('#0098db')"></div>
+        <div class="stylo" id="couleur4" onclick="mettreCouleurStylo('#3c42c4')"></div>
+        <div class="stylo" id="couleur5" onclick="mettreCouleurStylo('#1e579c')"></div>
+        <div class="stylo" id="couleur6" onclick="mettreCouleurStylo('#203562')"></div>
+        <div class="stylo" id="couleur7" onclick="mettreCouleurStylo('#252446')"></div>
+        <div class="stylo" id="couleur8" onclick="mettreCouleurStylo('#201533')"></div>
+        <div class="stylo" id="couleur9" onclick="mettreCouleurStylo('black')"></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+@font-face {
+  font-family : "Pixel";
+  src: url("../font/pixel.ttf");
+}
+
+@font-face {
+  font-family: "Dogica";
+  src: url("../font/dogica.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/roboto.ttf");
+}
+
+html, body {
+  margin: auto;
+}
+
+body {
+  height: 100vh;
+}
+
+.alignement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.haut {
+  height: 20vh;
+}
+
+.bas, .content {
+  height : 33vh;
+}
+
+.content {
+  text-align: center;
+  font-family: "Dogica";
+}
+
+.content h1 {
+  font-size : 1000%;
+  margin-top : 0;
+}
+
+.content a {
+  font-size : 500%;
+  text-decoration: none;
+  color : black;
+}
+
+.content p {
+  margin-top: 10%;
+  font-size: 100%;
+}
+
+#easteregg {
+  background-image: url("../img/mario.avif");
+}

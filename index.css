@@ -1,0 +1,138 @@
+@font-face {
+  font-family : "Pixel";
+  src: url("../font/pixel.ttf");
+}
+
+@font-face {
+  font-family: "Dogica";
+  src: url("../font/dogica.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/roboto.ttf");
+}
+
+html, body {
+  margin: 0; /* Tout d'abord, je commence par enlever les margin du body et/ou de l'html */
+}
+
+body {
+  background-image: url("../img/fond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color : white;
+}
+
+.gradient {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+}
+
+.header {
+  display : flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 7.5vh;
+  padding-top: 1.2%;
+}
+
+.header a {
+  font-size: 120%;
+  font-family: "Roboto";
+  text-decoration: none;
+  padding-top: 1%;
+  color: white ;
+}
+
+.header a:hover {
+  text-shadow:
+0 0 10px rgba(255, 255, 255, 1),
+0 0 10px rgba(255, 255, 255, .9),
+0 0 50px rgba(255, 255, 255, .8),
+0 0 75px rgba(255, 255, 255, .7),
+0 0 76px rgba(255, 255, 255, .6),
+0 0 77px rgba(255, 255, 255, .5),
+0 0 78px rgba(255, 255, 255, .4),
+0 0 79px rgba(255, 255, 255, .3),
+0 0 80px rgba(255, 255, 255, .2),
+0 0 85px rgba(255, 255, 255, .1);
+  cursor: default;
+}
+
+.header a:active {
+  color : black;
+  cursor: default;
+}
+
+.header a: {
+  color : white
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  height: 85vh;
+}
+
+
+.left, .right {
+  width : 50%;
+}
+
+.left {
+  margin: 5% 0 0 10%;
+}
+
+.main-title {
+  font-size: 1000%;
+  margin: auto;
+  font-family: "Pixel";
+  font-weight: lighter;
+}
+
+.descr {
+  hyphens: auto;
+  font-size: 150%;
+  text-align: justify;
+  margin-right: 15%;
+  letter-spacing: 0.5vh;
+  line-height: 4vh;
+  font-family: "Roboto";
+}
+
+.right {
+  margin: auto;
+}
+
+#start {
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  width: 40vh;
+  height: 7vh;
+  padding-top: 3%;
+  margin: auto;
+  display: block;
+  font-size: 300%;
+  color : white;
+  background-color: transparent;
+  border : none;
+  border-radius: 1vh;
+  font-family: "Dogica";
+}
+
+#start:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#start:active {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color : rgba(255, 255, 255, 0.5);
+}
