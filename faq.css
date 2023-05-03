@@ -1,16 +1,16 @@
 @font-face {
   font-family : "Pixel";
-  src: url("../font/pixel.ttf");
+  src: url("pixel.ttf");
 }
 
 @font-face {
   font-family: "Dogica";
-  src: url("../font/dogica.ttf");
+  src: url("dogica.ttf");
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../font/roboto.ttf");
+  src: url("roboto.ttf");
 }
 
 html, body {
