@@ -37,7 +37,7 @@ canvas {
 }
 
 #couleur3 {
-    background-color: #0098db;
+    background-color: green;
 }
 
 #couleur4 {
@@ -45,7 +45,7 @@ canvas {
 }
 
 #couleur5 {
-    background-color: #1e579c;
+    background-color: yellow;
 }
 
 #couleur6 {
@@ -57,13 +57,9 @@ canvas {
 }
 
 #couleur8 {
-    background-color: #201533;
+    background-color: red;
 }
 
 #couleur9 {
     background-color: black;
-}
-
-#couleur10 {
-    background-color: red;
 }
